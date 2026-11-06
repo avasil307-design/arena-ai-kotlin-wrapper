@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Arena</string>
+    <string name="error_title">Не удалось открыть Arena</string>
+    <string name="error_message">Проверьте подключение к интернету и попробуйте снова. Сайт также может быть временно недоступен.</string>
+    <string name="retry">Повторить</string>
+    <string name="browser_missing">Не удалось открыть ссылку. Установите браузер или приложение для этого типа ссылок.</string>
+    <string name="picker_missing">Не удалось открыть системный выбор файлов.</string>
+    <string name="google_title">Вход через Google</string>
+    <string name="google_message">Google может запрещать вход во встроенных браузерах. Это приложение не обходит ограничения. Безопасный вариант — открыть Arena в обычном браузере и продолжить работу там. Вход в браузере не переносит сессию в приложение. Если сайт предлагает другой способ входа, можно использовать его здесь.</string>
+    <string name="open_browser">Открыть в браузере</string>
+    <string name="cancel">Отмена</string>
+</resources>
