@@ -30,9 +30,10 @@ jobs:
 
       - name: Set up Android SDK
         uses: android-actions/setup-android@v3
-
-      - name: Install Android platform and build tools
-        run: sdkmanager "platforms;android-35" "build-tools;34.0.0"
+        with:
+          # Override the default "tools platform-tools": tools is obsolete.
+          packages: 'platform-tools platforms;android-35 build-tools;34.0.0'
+          log-accepted-android-sdk-licenses: 'false'
 
       - name: Set up Gradle and validate wrapper
         uses: gradle/actions/setup-gradle@v4
