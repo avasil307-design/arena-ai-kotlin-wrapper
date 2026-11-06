@@ -1,5 +1,5 @@
 <resources>
-    <style name="Theme.Arena" parent="android:style/Theme.Material.NoActionBar">
+    <style name="Theme.Arena.Base" parent="android:style/Theme.Material.NoActionBar">
         <item name="android:fontFamily">sans</item>
         <item name="android:windowBackground">#000000</item>
         <item name="android:colorBackground">#000000</item>
@@ -7,8 +7,8 @@
         <item name="android:statusBarColor">#000000</item>
         <item name="android:navigationBarColor">#000000</item>
         <item name="android:windowLightStatusBar">false</item>
-        <item name="android:windowLightNavigationBar">false</item>
         <item name="android:windowActionModeOverlay">true</item>
         <item name="android:windowLayoutInDisplayCutoutMode">never</item>
     </style>
+    <style name="Theme.Arena" parent="Theme.Arena.Base" />
 </resources>
